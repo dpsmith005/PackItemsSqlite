@@ -1,0 +1,69 @@
+This is the helpinfo file used to populate the help rich text box.
+
+Top menu drop down items
+  Add CSV to DB:
+	Add Data from CSV: Add all data in MyData.csv to the Items, Groups and Tags tables.
+	Add Items to CSV: Add data in the MyData.csv to the Items table.
+	Add Groups from CSV: Add data in the MyGroups.csv to the Groups table.
+	Add Tags from CSV: Add data in the MyTags.csv to the Tags table.
+	Delete All Data: Remove all data from the SQLite tables.
+	Export Data to CSV:  Save the pack items data to a CSV file.
+
+  List View:
+	This is where the gear list is created.  There may be multiple packs, shelters and so on.
+	For each different adventure you may need different gear.  Tags are a great to differential this gear for different types of trips.
+	multiple tags are allowed.
+	Some of The columns are sortable for view purposes.  The default sort order is by group name list order and item.
+	Filtering of the data can be done by group, tag, new, OR selected items.
+	The pack weight is calculated for the groups and the overall total.  These are check box items
+	The List is saved as a CSV file based on the selection criteria.  The CSV may be used to review weights or print lists with weights.
+	The list of items is saved as a PDF in single column or multi-column.  Only the group and item is saved in the PDF.
+
+  Help:
+	Display this help information.
+
+Top menu tabs
+  Items: Display the items in the table.  
+	Details are displayed and can be edited on the right side of the form.
+	The data may alos be edited directly in the table, with the exception of read only fields listed below.
+	All weight is entered by grams.  The ounces are then calculated.  The lb and oz columns are also calculated.
+	The tags column is read only.  Use the form on the right to select the tags to be applied to the item.
+
+	Read only fields: ounces, lb, oz, tags
+
+	The items can be searched.  Enter the value to be search in the text box on the bottom left.  
+	Searchable values are item, group, and tag.
+	Push the search button next to the text box to search by that value.  A blank value will select all items.
+	There are also 2 buttons to search by all New and Selected items.
+
+	The intention for new new is these are items that are to be purchased.
+	The intention for selected is these are the items that will be selected to take along on the trip.
+	The addition of tags allows for greater granularity.
+
+  Groups:
+	Edit the groups for the gear items.  There is alos a list order.  This is used when building the gear list for you next adventure.
+	Only one group is allowed for each item.
+	
+  Tags:
+	These can be helpful to organize items and search for items.  This will allow you to classify items beyond the gear groupings.
+	For example, a tag may be used for winter hiking and another for summer.  Maybe you have gear for float trips.
+	These tags will allow you to build list based on these tags.
+
+Search features
+	Below the Items are text boxes and search buttons.  These allow for searching by item, group or tag.
+	There are also search buttons for all new and selected items.
+	
+	* Only one filter is applied at a time.
+
+Status bar at the bottom displays actions and results.  This is more for trouble shooting, but also displays what is happening in the background
+
+Hints:
+	The use of the selected test box is how I originally used this in a spreadsheet.  This is the simplest method
+	to create a list for your next adventure.
+	The addition of tags can further enhance the list creation.  Use the tags to identify items that are to be taken on a specific trip.
+	For example:
+		use float tag for all the items that would be needed when taking a trip on a bod of water.
+		use summer for all the items used on a summer packback trip
+		use winter for the items necessary for a cold adventure.
+	Another way to use tags is for weight comparison.  All shelter items could be tagged shelter.
+	Be creative with the tags to slice and dice the list.
