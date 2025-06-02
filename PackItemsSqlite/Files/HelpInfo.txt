@@ -1,0 +1,31 @@
+This is the helpinfo file used to populate the help rich text box.
+
+Top menu drop down items
+Add CSV to DB:
+	Add Data from CSV: Add all data in MyData.csv to the Items, Groups and Tags tables.
+****	Add Items to CSV: Add data in the MyData.csv to the Items table.
+	Add Groups from CSV: Add data in the MyGroups.csv to the Groups table.
+	Add Tags from CSV: Add data in the MyTags.csv to the Tags table.
+	Delete All Data: Remove all data from the SWQLite tables.
+	Export Data to CSV:  Save the pack items data to a CSV file.
+
+
+Top menu tabs
+Items: Display the items in the table.  (Iems, group name, tags with details button)
+		Details are displayed and can be edited on the right side of the form.
+
+Groups:
+	* If and item is selected in this display, this will be the filter when returning to Items
+	
+Tags:
+	* If and item is selected in this display, this will be the filter when returning to Items
+	
+Items Edit:
+	* place the cursor in the Item text box, leave blank and press tab.  This will display all items.
+
+Search features
+Below the menu tab is a drop down to select all items belonging to a specific group, with a specific tag,
+or search item by text entered in the text input box.
+* Only one filter is applied at a time.
+
+Status bar at the bottom displays actions and results.
